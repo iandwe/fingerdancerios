@@ -17,9 +17,12 @@
 {
     float lastClickedX;
     UIView *topView;
+    UIView *circle;
     UIColor *activeColor;
     UIColor *passiveColor;
+    UIColor *circleColor;
     bool correctAnswer;
+    int size;
 }
 
 @property (nonatomic, weak) id<PAJButtonListenerProtocol> delegate;
